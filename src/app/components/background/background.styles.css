@@ -1,10 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
 *{
     margin: 0px;
     padding: 0px;
@@ -148,21 +141,6 @@ body{
     border-radius: 25px;
     box-shadow: 0px 0px 5px black;
 }
-
-.componentsContainer {
-  position: absolute;
-  z-index: 99;
-  top: 10%;
-  left: 10%;
-  width: 80%;
-  height: 80%;
-  /* background: black;
-  opacity: 0.3;
-  border: 1.5px solid darkgray; */
-  border-radius: 25px;
-}
-
-
 
 @keyframes animate {
 

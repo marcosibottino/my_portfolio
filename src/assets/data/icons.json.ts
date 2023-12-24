@@ -1,0 +1,17 @@
+export const iconsData = [
+   { name: 'JavaScript', url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg' },
+   { name: 'TypeScript', url: 'https://www.typescriptlang.org/', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg' },
+   { name: 'C++', url: 'https://docs.microsoft.com/en-us/cpp/?view=msvc-170', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg' },
+   { name: 'HTML5', url: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg' },
+   { name: 'React', url: 'https://reactjs.org/', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg' },
+   { name: 'NextJS', url: 'https://nextjs.org/docs', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg' },
+   { name: 'Angular', url: 'https://angular.io/', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/angularjs-colored.svg' },
+   { name: 'CSS3', url: 'https://www.w3.org/TR/CSS/#css', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg' },
+   { name: 'Bootstrap', url: 'https://getbootstrap.com/', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg' },
+   { name: 'Sass', url: 'https://sass-lang.com/', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg' },
+   { name: 'Material UI', url: 'https://mui.com/', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/materialui-colored.svg' },
+   { name: 'NodeJS', url: 'https://nodejs.org/en/', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg' },
+   { name: 'macOS', url: 'https://apple.com', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/macos-colored-dark.svg' },
+   { name: 'Figma', url: 'https://www.figma.com/', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg' },
+   { name: 'Google Cloud', url: 'https://cloud.google.com/', icon: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/googlecloud-colored.svg' },
+];

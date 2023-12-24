@@ -1,0 +1,56 @@
+.descContainer {
+    position: absolute;
+    width: 90%;
+    height: 40%;
+    background: #2d2d2d;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 25px;
+    border: 1px solid darkgray;
+    box-shadow: 0px 0px 5px black;
+    opacity: 0.5;
+}
+
+.desc {
+    position: absolute;
+    width: 90%;
+    height: 40%;
+    /* background: dimgray; */
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid darkgray; */
+    /* box-shadow: 0px 0px 5px black; */
+    /* opacity: 0.5; */
+}
+
+.p {
+    color: white;
+    width: 93%;
+    font-weight: 200;
+    font-size: 14px;
+    position: relative;
+    top: 10%;
+}
+
+.welcome {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    font-size: 23px;
+    color: white;
+    left: 3%;
+    font-weight: 200;
+}
+
+.handShake {
+    position: absolute;
+    top: 8%;
+    left: 30%;
+    width: 5%;
+}

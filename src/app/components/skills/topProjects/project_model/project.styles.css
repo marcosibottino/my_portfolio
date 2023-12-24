@@ -1,0 +1,101 @@
+.project_bg {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    /* background: yellow; */
+    background: #2d2d2d;
+    border-radius: 25px;
+    border: 1px solid darkgray;
+    box-shadow: 0px 0px 5px black;
+    opacity: 0.5;
+}
+
+.project {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    /* background: yellow; */
+    border-radius: 25px;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 7%;
+    border-radius: 25px;
+    /* background: purple; */
+}
+
+.description {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    /* background: aqua; */
+    top: 28%;
+    display: flex;
+    align-items: center;
+}
+
+.lang {
+    position: absolute;
+    bottom: 4%;
+    width: 50%;
+    height: 33%;
+    border-radius: 25px;
+    /* background: brown; */
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconsProject {
+    width: 15%;
+    position: relative;
+    left: 5%;
+    margin-right: 10%;
+}
+
+.bookmarkIcon {
+    position: absolute;
+    top: 22%;
+    left: 8%;
+}
+
+.titleProject {
+    position: absolute;
+    left: 16%;
+    top: 11%;
+    color: white;
+    font-weight: 200;
+}
+
+.descText {
+    position: absolute;
+    font-size: 13px;
+    color: white;
+    left: 5%;
+    font-weight: 200;    
+}
+
+.project_btn {
+    position: absolute;
+    bottom: 9%;
+    right: 8%;
+    background: transparent;
+    color: whitesmoke;
+    padding: 2% 7%;
+    font-size: 12px;
+    border: 1.5px solid darkgray;
+    border-radius: 10px;
+    font-weight: 300;
+    box-shadow: 0px 2px 5px black;
+    transition: 0.4s ease-in-out;
+}
+
+.project_btn:hover {
+    background: whitesmoke;
+    color: black;
+    box-shadow: 0px 2px 5px white;
+}

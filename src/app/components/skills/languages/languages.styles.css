@@ -1,0 +1,46 @@
+.langContainer {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 90%;
+    height: 20%;
+    background: #2d2d2d;
+    border-radius: 25px;
+    border: 1px solid darkgray;
+    box-shadow: 0px 0px 5px black;
+    opacity: 0.5;
+}
+
+.languagesContainer {
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    width: 89%;
+    height: 20%;
+    /* background: red; */
+}
+
+.topLanguagestitle {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    top: 11%;
+    left: 3%;
+}
+
+.icons {
+    align-items: left;
+    position: absolute;
+    width: 95%;
+    height: 39%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    top: 50%;
+    left: 3.5%;
+}
+
+a {
+    margin-right: 2%;
+}

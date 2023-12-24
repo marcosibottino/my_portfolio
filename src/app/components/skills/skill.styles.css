@@ -1,0 +1,8 @@
+.skillContainer {
+    position: absolute;
+    left: 30%;
+    /* background: yellow; */
+    width: 70%;
+    height: 100%;
+    border-radius: 25px;
+}
