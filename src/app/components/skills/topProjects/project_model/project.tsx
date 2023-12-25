@@ -18,10 +18,11 @@ interface ProjectProps {
     url: string;
     description: string;
     first_language: string,
-    second_language: string
+    second_language: string,
+    tooltip: string
 }
 
-export default function Project({nameProject, url, description, first_language, second_language}: ProjectProps) {
+export default function Project({nameProject, url, description, first_language, second_language, tooltip}: ProjectProps) {
 
     const [firstIcon, setFirstIcon] = useState<LanguageResult | null>(null);
     const [secondIcon, setSecondIcon] = useState<LanguageResult | null>(null);
@@ -43,10 +44,10 @@ export default function Project({nameProject, url, description, first_language, 
         <div className="project">
             <div className="title">
             <FontAwesomeIcon icon={faBookBookmark} color='#fff' className='bookmarkIcon'/>
-            <h1 className='titleProject'>SocialMediaProject</h1>
+            <h1 className='titleProject'>{nameProject}</h1>
             </div>
             <div className="description">
-                <p className='descText'>This is a description of the project im describing... enjoy it!! 😊</p>
+                <p className='descText'>{description}</p>
                 </div>
             <div className="lang">
             <Tooltip title={firstIcon?.name}>
@@ -57,7 +58,9 @@ export default function Project({nameProject, url, description, first_language, 
             </Tooltip>
             </div>
             <Link href={url}>
-            <button className='project_btn'>See project here</button>
+                <Tooltip title={tooltip}>
+                    <button className='project_btn'>See project here</button>
+                </Tooltip>
             </Link>
         </div>
         </>

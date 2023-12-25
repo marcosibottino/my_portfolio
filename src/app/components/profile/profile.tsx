@@ -3,6 +3,8 @@ import './profile.styles.css'
 import photoProfile from '@/assets/profile.jpg';
 import next from '@/assets/next.png'
 import Link from "next/link";
+import { config } from "@/assets/data/config.json";
+import { Tooltip } from "@mui/material";
 
 
 interface ProfileProps {
@@ -12,24 +14,33 @@ interface ProfileProps {
 }
 
 export default function Profile({name}: ProfileProps){
+
+    console.log(next.src);
+
     return ( 
         <div className="profileContainer">
             <div className="imgContainer">
-                <img className="imgProfile" src={photoProfile.src} alt="" />
+                <Tooltip title={config[0].profile.imgProfile.tooltip}>
+                <img className="imgProfile" src={config[0].profile.imgProfile.path} alt="" />
+                </Tooltip>
             </div>
             <div className="dataProfile">
-                <h1 className="name">Marcos Bottino</h1>
-                <h1 className="prof">Software Developer</h1>
-                <Link href="https://github.com/marcosibottino">
-                <button className="gh_btn">Github</button>
+                <h1 className="name">{config[0].profile.name}</h1>
+                <h1 className="prof">{config[0].profile.prof}</h1>
+                <Link href={config[0].profile.buttons.first.url}>
+                <Tooltip title={config[0].profile.buttons.first.tooltip}>
+                <button className="gh_btn">{config[0].profile.buttons.first.name}</button>
+                </Tooltip>
                 </Link>
-                <Link href="https://www.linkedin.com/in/marcosbottino/">
-                <button className="lin_btn">LinkedIn</button>
+                <Link href={config[0].profile.buttons.second.url}>
+                    <Tooltip title={config[0].profile.buttons.second.tooltip}>
+                        <button className="lin_btn">{config[0].profile.buttons.second.name}</button>
+                    </Tooltip>
                 </Link>
             </div>
             <div className="createContainer">
-                <h1 className="made">Made with </h1>
-                <img className="next" src={next.src}/>
+                <h1 className="made">{config[0].profile.mby.sentence}</h1>
+                <img className="next" src={config[0].profile.mby.logo}/>
             </div>
         </div>
 /* <Link href={url}>
