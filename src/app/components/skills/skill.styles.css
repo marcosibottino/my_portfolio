@@ -17,3 +17,13 @@
         height: 76%;
     }
 }
+
+@media screen and (max-width: 415px) {
+    .skillContainer {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 24%;
+        width: 95%;
+        height: 76%;
+    }
+}

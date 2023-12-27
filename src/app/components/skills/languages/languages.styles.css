@@ -77,3 +77,35 @@ a {
         width: 20%;
     }
 }
+
+@media screen and (max-width: 415px) {
+    .langContainer,
+    .languagesContainer {
+        top: 46%;
+        height: 25%;
+    }
+
+    .topLanguagestitle {
+        left: 22%;
+        width: 100%;
+    }
+
+    .icons {
+        position: absolute;
+        width: 92%;
+        height: 43%;
+        display: flex;
+        top: 35%;
+        left: 10%;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    a {
+        margin-right: 10%;
+        margin-top: 5%;
+        width: 20%;
+    }
+}

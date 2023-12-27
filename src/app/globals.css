@@ -142,11 +142,12 @@ body{
     left: 10%;
     width: 80%;
     height: 80%;
-    background: black;
+    background: #00000095;
     opacity: 0.65;
     border: 1.5px solid darkgray;
     border-radius: 25px;
     box-shadow: 0px 0px 5px black;
+    backdrop-filter: blur(20px);
 }
 
 .componentsContainer {
@@ -178,6 +179,21 @@ body{
     }
 }
 
+@media screen and (max-width: 415px){
+    .container {
+        height: 284% !important;
+        left: 6% !important;
+        width: 90% !important;
+    }
+
+    .componentsContainer {
+        height: 250%;
+    }
+    
+    .area {
+        height: 321vh !important;
+    }
+}
 
 
 @keyframes animate {
