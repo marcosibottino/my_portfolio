@@ -162,6 +162,22 @@ body{
   border-radius: 25px;
 }
 
+@media screen and (max-width: 391px){
+    .container {
+        height: 284% !important;
+        left: 6% !important;
+        width: 90% !important;
+    }
+
+    .componentsContainer {
+        height: 250%;
+    }
+    
+    .area {
+        height: 300vh !important;
+    }
+}
+
 
 
 @keyframes animate {

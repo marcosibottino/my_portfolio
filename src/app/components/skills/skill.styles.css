@@ -6,3 +6,14 @@
     height: 100%;
     border-radius: 25px;
 }
+
+
+@media screen and (max-width: 391px) {
+    .skillContainer {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 24%;
+        width: 95%;
+        height: 76%;
+    }
+}

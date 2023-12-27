@@ -54,3 +54,36 @@
     left: 30%;
     width: 5%;
 }
+
+
+@media screen and (max-width: 391px) {
+    .welcome {
+        position: absolute;
+        width: 71%;
+        top: 4%;
+        font-size: 23px;
+        color: white;
+        left: 50%;
+        font-weight: 200;
+        transform: translateX(-50%);
+    }
+    
+    .handShake {
+        width: 45%;
+        /* background: red; */
+        left: 50%;
+        transform: translateX(-50%);
+        top: 13%;
+    }
+
+    .descContainer, .desc {
+        height: 37%;
+    }
+
+    .p {
+        position: absolute;
+        top: 36%;
+        text-align: center;
+        font-size: 16px;
+    }
+}

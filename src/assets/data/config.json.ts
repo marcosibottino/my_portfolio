@@ -3,7 +3,7 @@ import {iconsData} from './icons.json';
 export const config = [{
         profile: {
             imgProfile: {
-                path: '/_next/static/media/profile.b5155ba5.jpg',
+                path: 'https://avatars.githubusercontent.com/u/121776415?s=400&u=cc36dac95c29fc9aa1564633dbc0d2b05e6b479b&v=4',
                 tooltip: 'Marcos Bottino'
             },
             name: 'Marcos Bottino',

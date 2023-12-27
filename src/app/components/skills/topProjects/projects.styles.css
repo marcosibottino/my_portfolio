@@ -11,3 +11,15 @@
 .secondProject {
     margin-left: 55%;
 }
+
+@media screen and (max-width: 391px) {
+
+    .projectContainer {
+        height: 36%;
+    }
+
+    .secondProject {
+        margin-top: 134%;
+        margin-left: 0;
+    }
+}
